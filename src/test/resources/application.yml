@@ -1,0 +1,11 @@
+micronaut:
+    application:
+        name: c8y-micronaut
+cumulocity:
+    url: https://localhost:8080
+    username: testuser
+    password: testpassword
+    pagesize: 2000
+jackson:
+    serialization:
+        write-dates-as-timestamps: false

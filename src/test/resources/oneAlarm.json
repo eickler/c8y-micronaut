@@ -1,0 +1,27 @@
+{
+    "count": 1335,
+    "creationTime": "2018-12-18T15:07:58.706Z",
+    "time": "2018-12-30T18:16:20.976Z",
+    "firstOccurrenceTime": "2018-12-18T15:06:54.918Z",
+    "history": {
+        "auditRecords": [],
+        "self": "https://demos.cumulocity.com/audit/auditRecords"
+    },
+    "id": "882693256",
+    "self": "https://demos.cumulocity.com/alarm/alarms/882693256",
+    "severity": "MAJOR",
+    "source": {
+        "id": "697612951",
+        "name": "CEP Engine demos",
+        "self": "https://demos.cumulocity.com/inventory/managedObjects/697612951"
+    },
+    "status": "ACTIVE",
+    "text": "Exception on tenant demos in statement 'system:CreateMeasurement': Http status code: 504\nSomething went wrong. Failed to parse error message.",
+    "type": "c8y_CepRuntimeException@system:CreateMeasurement",
+    "c8y_ExceptionDetails": {
+        "rootCauseMessage": "SDKException: Http status code: 504\nSomething went wrong. Failed to parse error message.",
+        "statementName": "system:CreateMeasurement",
+        "message": "Http status code: 504\nSomething went wrong. Failed to parse error message.",
+        "tenant": "demos"
+    }
+}

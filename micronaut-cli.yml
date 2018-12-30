@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: c8y
+---
+testFramework: junit
+sourceLanguage: java
